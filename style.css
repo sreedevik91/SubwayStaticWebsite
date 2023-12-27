@@ -1,0 +1,126 @@
+body{
+    margin:0;
+    background: #ededed;
+    font-family:Roboto,sans-serif;
+}
+.navbar{
+    display:flex;
+    height:75px;
+    width:100%;
+    position: sticky;
+    top:0;
+    background: white;
+}
+
+#icon{
+    width:30%;
+height:70px;
+
+}
+#links{
+    width:70%;
+height:70px;
+}
+#HAS{
+    padding-left: 680px;
+    padding-top: 35px;
+    height:75px;
+}
+.logo{
+    width:34%;
+    height:75px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+a{
+    text-decoration: none;
+    color:#008938;
+    padding: 10px 14px 5px;
+    font-size:16px;
+    font-weight: 500px;
+    font-family:Roboto,sans-serif;
+    text-transform: uppercase;
+}
+#a1{
+    border-bottom: 3px solid orange;
+    border-bottom-right-radius: 2px;
+}
+.imagediv{
+    width:100%;
+    height:700px;
+    background: url(Grill\ image.webp);
+    background-size: cover;
+}
+
+.order{
+    width:75%;
+    padding-top: 50px;
+    padding-left: 120px;
+    flex-direction: column;
+}
+.orderImg{
+    width:35%;
+
+}
+#orderText{
+    color: white;
+    padding-top: 40px;
+    font-size: 18px;
+    font-family:Roboto,sans-serif;
+}
+#btnSwiggy{
+    
+    width:100%;
+    height: 40px;
+    
+}
+#btnZomato{
+    width:100%;
+    height: 40px;
+   
+    
+}
+.btn{
+    width:160px;
+    height:40px;
+    border-radius: 60px;
+    background-color:transparent;
+    border: none;
+   
+}
+.videodiv{
+    width:100%;
+    height: 650px;
+    text-align: center;
+    
+}
+iframe{
+    width:55% ;
+    height:80%; 
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.footer{
+    width: 100%;
+    height: 70px;
+    background: white;
+    display: flex;
+}
+.footerText{
+    width: 85%;
+    margin-left: 90px;
+    font-size: 14px;
+    padding-top: 5px;
+   
+}
+.footerIcon{
+width: 40px;
+height:40px;
+margin-left: 70px;
+padding-bottom: 50px;
+}
+.footerIcondiv{
+    position:relative;
+    bottom: 20px;
+    padding-bottom: 50px;
+}
